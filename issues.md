@@ -126,3 +126,18 @@ Android web视图,至少在HTC EVO和三星的Galaxy Nexus中，文本输入框�
 解决方法删除了overflow-x:hidden; 然后在JS生成下来菜单之后focus聚焦，这两步操作之后解决了问题。(来自岛都-小Qi)
 
 参考<http://stackoverflow.com/questions/4697908/html-select-control-disabled-in-android-webview-in-emulator>
+
+
+ ##利用高质量图片优化retina屏幕的显示(来自大漠提供的资料)
+ 
+ 在iphone5等视网膜设备上，经常需要使用高质量图片，之后压缩尺寸，以使图片显示效果更好。但是因为很多小图片会涉及到css雪碧图的问题。以下为解决方案
+ 
+
+ [经典的文章](http://miekd.com/articles/using-css-sprites-to-optimize-your-website-for-retina-displays/ "article5")
+
+ [使用CSS3的background-size优化苹果的Retina屏幕的图像显示](http://www.w3cplus.com/css/css-background-size-graphics.html "article5") 
+
+ [使用css sprites来优化你的网站在Retina屏幕下显示](http://www.w3cplus.com/css/using-css-sprites-to-optimize-your-website-for-retina-displays.html "article5") 
+  
+  [一个案例](http://alexthorpe.com/uncategorized/css-sprites-for-retina-display-devices/683/ "article5") 
+ 
